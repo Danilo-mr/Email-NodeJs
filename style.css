@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.login, .cadastrar, .listagem {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+form {
+    text-align: center;
+}
+
+#entrar, #cadastrar, #listar {
+    width: 40%;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+p {
+    text-align: left;
+    padding: 1px;
+}
+
+input {
+    border-radius: 10px;
+    border-color: black;
+    border-width: 1px;
+    width: 100%;
+}
+
+.links {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
