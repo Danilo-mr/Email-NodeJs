@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 
-.login, .cadastrar, .listagem {
+.login, .cadastrar, .listagem, .enviar-email {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -12,7 +12,10 @@
     width: 300px;
 }
 
-
+textarea {
+    margin-top: 30px;
+    border-width: 2px;
+}
 
 h1 {
     text-align: center;
@@ -24,7 +27,7 @@ form {
     text-align: center;
 }
 
-#entrar, #cadastrar, #listar {
+#entrar, #cadastrar, #listar, #enviar {
     width: 40%;
     margin-top: 8px;
     cursor: pointer;
